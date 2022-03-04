@@ -16,7 +16,7 @@ def class1 ():
     driver3 = driver.find_elements(By.CSS_SELECTOR, "#divMultipleFileTypes > fieldset > p > label:nth-child(8)")
     driver3.click()
     driver4 = driver.find_element(By.ID, "btnRegisterWithFileTypes")
-    driver4.click()
+    driver4.click()ver
 
     send1 = driver.find_element(By.ID,  "marketoFirstName")
     send1.send_keys("Mukunth")
